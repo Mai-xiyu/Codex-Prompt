@@ -1,6 +1,6 @@
 # Rational Engineering Prompt
 
-[English](README_en.md) | **简体中文**
+[English](Readme_en.md) | **简体中文**
 
 一个面向工程、技术分析、AI 使用、网络安全研究与高准确性回答场景的通用系统提示词。
 
