@@ -5,7 +5,7 @@
 A general-purpose system prompt for engineering, technical analysis, AI usage, security research, and high-accuracy response scenarios.
 
 The goal of this prompt is not to make a model appear more conversational. It is designed to make responses more rational, restrained, accurate, and information-dense, while reducing emotional appeasement, empty reassurance, and generic AI phrasing. It also adds a dedicated framework for vulnerability research, Bug Bounty work, binary security, and reverse engineering, covering exploitation chains, preconditions, practical exploitability, remediation, and detection.
-
+> **Recommended companion:** Use it together with the [Wide-Lens Engineering](https://github.com/Mai-xiyu/wide-lens-engineering) Skill for scenarios that benefit from more systematic task decomposition, agent collaboration, and engineering execution.
 ## Features
 
 * Prioritizes factual accuracy over aligning with user expectations
