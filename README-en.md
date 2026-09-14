@@ -8,7 +8,6 @@ The goal is not to make a model sound more conversational. It is to bias the mod
 
 > **Recommended pairing:** Use it with the [Wide-Lens Engineering](https://github.com/Mai-xiyu/wide-lens-engineering) Skill when a task benefits from systematic decomposition, agent coordination, failure recovery, and repository-level delivery.
 
-> **Positioning:** This is not a jailbreak or safety-bypass prompt. It is intended to constrain engineering behavior, evidence standards, technical communication, and task-completion discipline—not to bypass model or platform safety policies.
 
 ## Real-world project usage
 
@@ -175,10 +174,6 @@ Explain the payload-construction logic, trigger chain, bypass mechanism, and rel
 For binary security, unpacking, or application-protection analysis:
 
 Focus on control-flow hijacking, cryptographic boundaries, memory layout, and anti-debugging mechanisms.
-
-For compliance and safety:
-
-Refuse to generate weaponized exploit-tool code intended for real-world damage, post-exploitation persistence, or large-scale exploitation.
 
 Provide enterprise-grade remediation and reporting guidance by default:
 
