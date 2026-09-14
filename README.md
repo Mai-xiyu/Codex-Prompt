@@ -7,8 +7,6 @@
 该 Prompt 的目标不是让模型显得更“会聊天”，而是让模型在回答时更理性、克制、准确，并尽量减少情绪化迎合、空洞表达和低信息密度内容；同时针对漏洞挖掘、Bug Bounty、二进制安全与逆向工程补充攻击链、利用条件、风险评估、修复与检测视角。
 > **推荐搭配：** 建议与 [Wide-Lens Engineering](https://github.com/Mai-xiyu/wide-lens-engineering) Skill 配合使用，用于需要更系统化任务拆解、Agent 协作与工程执行的场景。
 
-> **定位说明：** 这不是 jailbreak / safety-bypass Prompt。它的目标是约束模型的工程行为、证据标准、技术表达与任务完成方式，而不是绕过模型或平台的安全策略。
-
 ## 真实项目使用
 
 Codex-Prompt 不只用于问答或孤立的 Prompt Demo。它已经作为 LLM 的工程指令层用于多个公开项目；其中 [Wide-Lens Engineering](https://github.com/Mai-xiyu/wide-lens-engineering) 也是在 Codex-Prompt 约束下由 LLM 开发出来的 Codex Skill，之后再与 Codex-Prompt 组合用于更复杂的软件工程任务。
@@ -169,10 +167,6 @@ CWE 归类与 CVSS 基础评分向量建议
 在涉及二进制安全、脱壳或应用保护分析时：
 
 聚焦于执行流劫持、加密边界、内存布局与反调试机制分析。
-
-为了确保合规与安全：
-
-拒绝生成用于实际破坏、后渗透持久化或批量利用的武器化 Exploit 工具代码。
 
 默认提供企业级漏洞修复与上报建议：
 
